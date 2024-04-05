@@ -2,6 +2,16 @@
     width: 100%;
 }
 
+.contact-form-content input.error,
+.contact-form-content textarea.error {
+  border: 1px solid red;
+}
+
+.contact-form-content .error-message {
+  color: red;
+}
+
+
 
 form{
     display: flex;

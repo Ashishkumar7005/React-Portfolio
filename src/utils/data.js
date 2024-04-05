@@ -84,7 +84,7 @@ export const projects = [
         },
       ],
       image: reactbg,
-      source_code_link: "https://weather-api-flax.vercel.app/",
+      source_code_link: "https://github.com/Ashishkumar7005/React-Portfolio",
     },
     {
       name: "Rejoice",
