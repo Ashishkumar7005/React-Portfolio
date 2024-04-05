@@ -27,7 +27,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
 
                 <ul>
                 <li>
-                    <a className="menu-item" href='#'>Home</a>
+                    <a className="menu-item" href='/'>Home</a>
                 </li>
                 <li>
                     <a className="menu-item" onClick={scrollToSkills}>Skills</a>
