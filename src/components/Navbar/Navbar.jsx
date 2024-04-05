@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import "./Navbar.css"
 import MobileNav from './MobileNav/MobileNav';
+import MyResume from '../../assets/resume/resume.pdf'
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
@@ -20,6 +21,10 @@ const Navbar = () => {
         const skillsSection = document.getElementById('projects');
         skillsSection.scrollIntoView({ behavior: 'smooth' });
     };
+
+    const openResume=()=>{
+        window.open(MyResume)
+    }
    
   return (
     <>
@@ -42,7 +47,7 @@ const Navbar = () => {
                     <a className="menu-item" onClick={scrollToContact}>Contact Me</a>
                 </li>
 
-                <button className="contact-btn" onClick={()=>{}} >
+                <button className="contact-btn" onClick={openResume} >
                     Resume
                 </button>
             </ul>
