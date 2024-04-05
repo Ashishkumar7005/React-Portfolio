@@ -28,8 +28,6 @@ const Navbar = () => {
       <nav className='nav-wrapper'>
         <div className="nav-content">
             <h1>Ashish Kumar</h1>
-            {/* <img src="" alt="" className="logo" /> */}
-
             <ul>
                 <li>
                     <a className="menu-item" href='#'>Home</a>
