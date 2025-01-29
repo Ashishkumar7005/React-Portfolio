@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import "./Navbar.css"
 import MobileNav from './MobileNav/MobileNav';
-import MyResume from '../../assets/resume/FinalAshishResume1.pdf'
+import MyResume from '../../assets/resume/Ashish_BPIT_resume_11.pdf'
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 

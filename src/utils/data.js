@@ -1,4 +1,4 @@
-import chatapp from '../assets/chatapp.png'
+import weather from '../assets/weather.png'
 import reactbg from '../assets/reactbg.webp'
 import rejouice from '../assets/rejouice.jpg'
 
@@ -45,25 +45,25 @@ export const SKILLS = [
 
 export const projects = [
     {
-      name: "Chat App",
+      name: "Weather API",
       description:
-      "Built a real-time chat application using MERN stack and Socket.io for seamless communication, enabling users to exchange messages instantly.",
+      "Built a real-time Weather API using HTML , CSS and JAVASCRIPT where you can also view your current location weather details by granting location.",
         tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JAVASCRIPT",
           color: "pink-text-gradient",
         },
       ],
-      image: chatapp,
-      source_code_link: "https://chatapp-ww03.onrender.com/login",
+      image: weather,
+      source_code_link: "https://weather-api-flax.vercel.app/",
     },
     {
       name: "Portfolio Website",
